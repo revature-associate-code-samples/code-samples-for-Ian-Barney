@@ -1,1 +1,0 @@
-Caliber is a web app that Revature uses to monitor the learning progress of associates. The current version is a monolith application built with AngularJS our objective is to update it to a microservice architecture and use Angular 7.

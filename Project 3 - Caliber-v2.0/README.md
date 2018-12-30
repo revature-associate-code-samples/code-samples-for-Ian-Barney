@@ -1,0 +1,3 @@
+Caliber is a performance management suite to collect and analyze evaluations of Revature trainees. Trainers can input grades and feedback for each of their trainees. The quality department can input their evaluations on the batch of trainees. Trainers and quality personnel can comment on a trainee's profile. The Caliber suite also provides a variety of reports on different levels of granularity using visual dashboards and tabular data. Users can generate individual and batch PDF reports to distribute to clients, trainees, and other stakeholders.
+Link to Angular Repo: https://github.com/revaturelabs/caliber-client-2.0.git
+Link to Batch Service Repo: https://github.com/revaturelabs/caliber-2-batch-service.git
