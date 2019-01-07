@@ -18,17 +18,7 @@ import com.revature.batchservice.entity.BatchEntity;
  */
 @FeignClient(name = "audit-service", url = "localhost:9075/")
 public interface QualityAuditClient {
-	/**
-	 * Sends a HTTP Get request to the getLocationById endpoint in the
-	 * LocationService Controller. Uses the given id to specify which Location to
-	 * get.
-	 * 
-	 * @param locationId
-	 *            The Location id to search for.
-	 * @return A BatchEntity<String> from the LocationService. Should contain a
-	 *         Location address within its body of the form (LocationId, Location
-	 *         Name, Street Address City State ZipCode)
-	 */
+	
 	@RequestMapping(method = RequestMethod.POST, value = "all/location/")
 	public ResponseEntity sendBatch(@RequestBody BatchEntity be);
 
