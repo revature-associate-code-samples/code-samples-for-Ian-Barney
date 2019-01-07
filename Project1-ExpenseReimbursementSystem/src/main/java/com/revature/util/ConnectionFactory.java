@@ -28,7 +28,7 @@ private static ConnectionFactory cf = null;
 	public Connection getConnection() {
 		Connection conn = null;
 		Properties prop = new Properties();
-		String path = "C:/Users/Ianba/my_git_repos/1810-oct22/week4/reimbursement/src/main/resources/database.properties";
+		String path = "C:/Users/Ianba/my_git_repos/code-samples-for-Ian-Barney/Project1-ExpenseReimbursementSystem/src/main/resources/database.properties";
 		
 			try {
 				prop.load(new FileReader(path));
